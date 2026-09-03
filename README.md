@@ -56,10 +56,13 @@ Analysis:    [ IDA Pro, Ghidra, Wireshark, Visual Studio ]
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-</picture>
+### 🚀 Active Open Source Work
+
+[![Pull Requests](https://img.shields.io/badge/AzerothCore-My_Pull_Requests-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)
+[![ChromieCraft](https://img.shields.io/badge/ChromieCraft-Verified_Fixes-0078D7?style=for-the-badge&logo=shield&logoColor=white)](https://www.chromiecraft.com)
+
+<br/><br/>
+
+[![Profile Views](https://komarev.com/ghpvc/?username=AlsoNotMehh&color=238636&style=flat-square&label=PROFILE+VIEWS)](https://github.com/AlsoNotMehh)
 
 </div>
