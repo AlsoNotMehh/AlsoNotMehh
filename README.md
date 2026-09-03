@@ -12,6 +12,11 @@
 [![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)](https://cmake.org/)
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 
+<br/>
+
+[![Discord](https://img.shields.io/badge/Discord-Contact-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1063304041419001966)
+[![Gmail](https://img.shields.io/badge/Gmail-itsbrayanrodriguez@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:itsbrayanrodriguez@gmail.com)
+
 </div>
 
 ---
@@ -67,10 +72,11 @@ Analysis:    [ IDA Pro, Ghidra, Wireshark, Visual Studio ]
 
 <div align="center">
 
-### 🚀 Active Open Source Work
+### 🚀 Active Open Source Work & Contact
 
 [![Pull Requests](https://img.shields.io/badge/AzerothCore-My_Pull_Requests-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)
 [![ChromieCraft](https://img.shields.io/badge/ChromieCraft-Verified_Fixes-0078D7?style=for-the-badge&logo=shield&logoColor=white)](https://www.chromiecraft.com)
+[![Discord](https://img.shields.io/badge/Discord-Direct_Message-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1063304041419001966)
 
 <br/><br/>
 
