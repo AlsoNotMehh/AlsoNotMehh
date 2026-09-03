@@ -6,7 +6,7 @@
 
 <br/>
 
-[![AzerothCore Contributor](https://img.shields.io/badge/AzerothCore-My_Contributions_&_PRs-7b1113?style=for-the-badge&logo=github&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)
+[![AzerothCore Contributor](https://img.shields.io/badge/AzerothCore-Contributor-red?style=for-the-badge&logo=github&logoColor=white&color=7b1113)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)
 [![C++](https://img.shields.io/badge/C++20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)](https://cmake.org/)
@@ -20,12 +20,10 @@
 
 ### ⚡ What I Do
 
-- 🛠️ **[AzerothCore Development & Contributions](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh):** Working on the core emulator architecture, spell & aura pipeline, creature AI, and movement systems.
-- 💻 **Modern C++ Engineering:** Writing clean, performant C++20, optimizing server execution, and resolving complex edge cases.
+- 🛠️ **[AzerothCore Development](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh):** Core emulator architecture, spell/aura engine, creature AI, and movement splines.
+- 💻 **Modern C++ Engineering:** Writing clean, performant C++20, optimizing server tick rates, and fixing edge cases.
 - 🔍 **Reverse Engineering & Sniffs:** Analyzing retail 3.3.5a packet traces, IDA Pro disassemblies, and DBC formats to ensure 100% Blizzlike fidelity.
-- 📦 **Modular Systems & Tools:** Designing standalone AzerothCore modules, cross-faction systems, and custom gameplay frameworks.
-
-👉 **[Click here to view all my Pull Requests and Contributions on AzerothCore](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)**
+- 📦 **Modular Systems:** Designing standalone AzerothCore modules and custom gameplay frameworks.
 
 ### 📦 AzerothCore Modules & Systems
 
@@ -65,13 +63,6 @@ Analysis:    [ IDA Pro, Ghidra, Wireshark, Visual Studio ]
 ```
 
 <div align="center">
-
-### 🚀 Direct Links & Contact
-
-[![AzerothCore PRs](https://img.shields.io/badge/AzerothCore-View_All_My_Pull_Requests-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)
-[![Discord](https://img.shields.io/badge/Discord-Direct_Message-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1063304041419001966)
-
-<br/><br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=AlsoNotMehh&color=238636&style=flat-square&label=PROFILE+VIEWS)](https://github.com/AlsoNotMehh)
 
