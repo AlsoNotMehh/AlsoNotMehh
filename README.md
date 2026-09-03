@@ -30,8 +30,8 @@
 | :--- | :--- | :---: |
 | **mod-cfbg-enhanced** | Cross-Faction Battlegrounds with **party team locking** (friends stay together) and **iLvl gear balance**. | [View Repo](https://github.com/AlsoNotMehh/mod-cfbg-enhanced) |
 | **mod-fast-day-night** | Accelerated **visual day/night cycle** (4h day / 4h night) & live GM weather/lighting controls. | [View Repo](https://github.com/AlsoNotMehh/mod-fast-day-night) |
-| **mod-account-bound** | Account-wide **achievements, mounts, companion pets, titles, and reputations** without login spam. | [View Repo](https://github.com/AlsoNotMehh/mod-account-bound) |
-| **mod-no-profession-limit** | Learn up to all **11 WotLK primary professions** with optional account-bound sync. | [View Repo](https://github.com/AlsoNotMehh/mod-no-profession-limit) |
+| **mod-account-bound** | Account-wide **achievements, mounts, companion pets, titles, and reputations** without login spam. | [View Repo](https://github.com/AlsoNotMehh/AccountBound) |
+| **mod-no-profession-limit** | Learn up to all **11 WotLK primary professions** with optional account-bound sync. | [View Repo](https://github.com/AlsoNotMehh/NoProfessionLimit) |
 ### 📊 GitHub Activity & Statistics
 
 <div align="center">
