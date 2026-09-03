@@ -35,6 +35,8 @@
 | **mod-hardcore-scaling** | Tuned **NPC health & damage scaling** (+25% HP / +30% DMG) for challenging Hardcore PvE without overwhelming. | [View Repo](https://github.com/AlsoNotMehh/mod-hardcore-scaling) |
 | **mod-account-bound** | Account-wide **achievements, mounts, companion pets, titles, and reputations** without login spam. | [View Repo](https://github.com/AlsoNotMehh/mod-account-bound) |
 | **mod-no-profession-limit** | Learn up to all **11 WotLK primary professions** with optional account-bound sync. | [View Repo](https://github.com/AlsoNotMehh/mod-no-profession-limit) |
+| **mod-eluna-racial-swap** | Custom **racial trait selector interface** via AIO without requiring client MPQ patches. | [View Repo](https://github.com/AlsoNotMehh/mod-eluna-racial-swap) |
+| **mod-eluna-teleport-selector** | Visual **starting zone teleporter card UI** with real-time NPC portrait capture via AIO. | [View Repo](https://github.com/AlsoNotMehh/mod-eluna-teleport-selector) |
 
 ### 📊 GitHub Activity & Statistics
 
@@ -52,8 +54,8 @@
 ### 🛠️ Tech & Tools
 
 ```yaml
-Languages:   [ C++20, C, SQL / MariaDB, Python, x86 Assembly ]
-Frameworks:  [ AzerothCore, TrinityCore, Boost, Detour/Recast ]
+Languages:   [ C++20, C, Lua, SQL / MariaDB, Python, x86 Assembly ]
+Frameworks:  [ AzerothCore, TrinityCore, Eluna, Boost, Detour/Recast ]
 Tooling:     [ CMake, MSVC, Clang / GCC, Git, Docker, Ninja ]
 Analysis:    [ IDA Pro, Ghidra, Wireshark, Visual Studio ]
 ```
