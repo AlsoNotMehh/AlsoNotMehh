@@ -1,8 +1,8 @@
 <div align="center">
 
-# ⚔️ Hey there, I'm AlsoNotMehh!
+# ⚔️ Hey, I'm AlsoNotMehh
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=1000&color=39D353&center=true&vCenter=true&width=650&lines=Game+Server+Emulation+%26+Reverse+Engineering;Active+AzerothCore+Core+%26+Scripts+Contributor;C%2B%2B20+%E2%80%A2+Movement+Splines+%E2%80%A2+Spell+Engine;Deep-Diving+WotLK+Blizzlike+Mechanics)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=C%2B%2B+Developer;AzerothCore+Contributor;WotLK+Emulation+%26+Reverse+Engineering;Fixing+mechanics+and+keeping+it+Blizzlike)](https://git.io/typing-svg)
 
 <br/>
 
@@ -16,12 +16,12 @@
 
 ---
 
-### 🛡️ About Me & Open Source Focus
+### ⚡ What I Do
 
-- ⚙️ **Core & Mechanics:** Deep-diving into unit movement splines, vehicle passenger physics, aura/proc engines, and spell family modifiers.
-- 🏰 **Raid & Boss Scripting:** High-precision research & blizzlike implementations for Ulduar (Mimiron, Razorscale, Thorim), Naxxramas, and ICC.
-- 🔬 **Reverse Engineering & Sniff Analysis:** Reconstructing authentic retail behaviors from packet sniffs, client disassembly, and official combat logs.
-- 🤝 **Community & Code Review:** Performing thorough agentic self-reviews, rigorous edge-case testing, and peer reviews on AzerothCore.
+- 🛠️ **AzerothCore Contributor:** Working on core systems, the spell/aura engine, and movement splines.
+- ⚔️ **Raid Mechanics & Scripting:** Fixing and polishing WotLK encounters (mainly Ulduar & ICC) backed by retail sniffs and logs.
+- 🔍 **Reverse Engineering:** Inspecting packet traces, IDA disassembly, and DBC data to fix subtle mechanical bugs.
+- 💻 **Modern C++:** Writing clean C++20, debugging tricky edge cases, and reviewing PRs across the codebase.
 
 ---
 
@@ -40,27 +40,23 @@
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### 🛠️ Tech & Tools
 
 ```yaml
-Languages:     [ C++20, C, SQL / MariaDB, Python, x86 Assembly ]
-Frameworks:    [ AzerothCore, TrinityCore Engine, Boost, SFMT, Detour/Recast ]
-Build Systems: [ CMake, MSVC, Clang / GCC, Ninja, Docker ]
-Tools & Debug: [ IDA Pro, Ghidra, Wireshark / WPP, RenderDoc, Visual Studio ]
+Languages:   [ C++20, C, SQL / MariaDB, Python, x86 Assembly ]
+Frameworks:  [ AzerothCore, TrinityCore, Boost, Detour/Recast ]
+Tooling:     [ CMake, MSVC, Clang / GCC, Git, Docker, Ninja ]
+Analysis:    [ IDA Pro, Ghidra, Wireshark, Visual Studio ]
 ```
 
 ---
 
 <div align="center">
 
-<!-- Snake animation eating your green contribution graph dots -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
 </picture>
-
-<br/>
-<sub>"Fixing one line at a time, keeping it Blizzlike." ⚡</sub>
 
 </div>
