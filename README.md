@@ -20,12 +20,12 @@
 
 ### ⚡ What I Do
 
-- 🛠️ **[AzerothCore Contributions & PRs](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh):** Core systems, spell/aura engine, leash timers, and movement splines.
-- ⚔️ **[Ulduar & Raid Fixes](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh+is%3Aclosed):** Kologarn charge pathing, Razorscale grounding phase, Mimiron hitboxes, and trash cleanup.
-- 🪄 **[Spells & Talents Fixes](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh+Spells):** Mage T8 4P bonus, Rogue Remorseless Attacks / Mutilate, Lock and Load, and Divine Shield auras.
-- 🔍 **Reverse Engineering:** Analyzing retail 3.3.5a sniffs, IDA Pro disassembly, and DBC data to keep mechanics 100% Blizzlike.
+- 🛠️ **[AzerothCore Development & Contributions](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh):** Working on the core emulator architecture, spell & aura pipeline, creature AI, and movement systems.
+- 💻 **Modern C++ Engineering:** Writing clean, performant C++20, optimizing server execution, and resolving complex edge cases.
+- 🔍 **Reverse Engineering & Sniffs:** Analyzing retail 3.3.5a packet traces, IDA Pro disassemblies, and DBC formats to ensure 100% Blizzlike fidelity.
+- 📦 **Modular Systems & Tools:** Designing standalone AzerothCore modules, cross-faction systems, and custom gameplay frameworks.
 
-👉 **[Click here to see all my Pull Requests and Contributions on AzerothCore](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)**
+👉 **[Click here to view all my Pull Requests and Contributions on AzerothCore](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)**
 
 ### 📦 AzerothCore Modules & Systems
 
