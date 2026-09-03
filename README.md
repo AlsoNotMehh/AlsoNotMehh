@@ -18,18 +18,12 @@
 [![Gmail](https://img.shields.io/badge/Gmail-itsbrayanrodriguez@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:itsbrayanrodriguez@gmail.com)
 
 </div>
-
----
-
 ### ⚡ What I Do
 
 - 🛠️ **AzerothCore Contributor:** Working on core systems, the spell/aura engine, and movement splines.
 - ⚔️ **Raid Mechanics & Scripting:** Fixing and polishing WotLK encounters (mainly Ulduar & ICC) backed by retail sniffs and logs.
 - 🔍 **Reverse Engineering:** Inspecting packet traces, IDA disassembly, and DBC data to fix subtle mechanical bugs.
 - 💻 **Modern C++:** Writing clean C++20, debugging tricky edge cases, and reviewing PRs across the codebase.
-
----
-
 ### 📦 AzerothCore Modules & Systems
 
 | Module | Description | Repository |
@@ -38,9 +32,6 @@
 | **mod-fast-day-night** | Accelerated **visual day/night cycle** (4h day / 4h night) & live GM weather/lighting controls. | [View Repo](https://github.com/AlsoNotMehh/mod-fast-day-night) |
 | **mod-account-bound** | Account-wide **achievements, mounts, companion pets, titles, and reputations** without login spam. | [View Repo](https://github.com/AlsoNotMehh/mod-account-bound) |
 | **mod-no-profession-limit** | Learn up to all **11 WotLK primary professions** with optional account-bound sync. | [View Repo](https://github.com/AlsoNotMehh/mod-no-profession-limit) |
-
----
-
 ### 📊 GitHub Activity & Statistics
 
 <div align="center">
@@ -56,9 +47,6 @@
 </p>
 
 </div>
-
----
-
 ### 🛠️ Tech & Tools
 
 ```yaml
@@ -67,9 +55,6 @@ Frameworks:  [ AzerothCore, TrinityCore, Boost, Detour/Recast ]
 Tooling:     [ CMake, MSVC, Clang / GCC, Git, Docker, Ninja ]
 Analysis:    [ IDA Pro, Ghidra, Wireshark, Visual Studio ]
 ```
-
----
-
 <div align="center">
 
 ### 🚀 Active Open Source Work & Contact
