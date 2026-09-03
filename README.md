@@ -29,12 +29,15 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats-fast.vercel.app/api?username=AlsoNotMehh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=238636&text_color=C9D1D9" height="175" alt="GitHub Stats" />
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=AlsoNotMehh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9" height="175" alt="Top Languages" />
+<p align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=AlsoNotMehh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=238636&text_color=C9D1D9" height="175" alt="GitHub Stats" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=AlsoNotMehh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9" height="175" alt="Top Languages" />
+</p>
 
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=AlsoNotMehh&theme=tokyonight&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353" alt="GitHub Streak" />
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=AlsoNotMehh&theme=tokyonight&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353" alt="GitHub Streak" />
+</p>
 
 </div>
 
