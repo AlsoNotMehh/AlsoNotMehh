@@ -6,10 +6,10 @@
 
 <br/>
 
-[![AzerothCore](https://img.shields.io/badge/AzerothCore-Contributor-red?style=for-the-badge&logo=github&logoColor=white&color=7b1113)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)
-[![All PRs](https://img.shields.io/badge/AzerothCore-All_My_PRs-238636?style=for-the-badge&logo=git&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)
-[![Merged Fixes](https://img.shields.io/badge/AzerothCore-Approved_&_Merged-8957e5?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh+is%3Aclosed)
+[![AzerothCore Contributor](https://img.shields.io/badge/AzerothCore-My_Contributions_&_PRs-7b1113?style=for-the-badge&logo=github&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)
 [![C++](https://img.shields.io/badge/C++20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)](https://cmake.org/)
 
 <br/>
 
@@ -18,31 +18,14 @@
 
 </div>
 
-### ⚡ What I Do & Contributions
+### ⚡ What I Do
 
-- 🛠️ **[Core Systems & Movement](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh+Core):** Leash system redesign, targeted movement generator pathing, and SmartAI caster creeping resolution.
-- ⚔️ **[Ulduar & Raid Scripting](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh+Ulduar):** Kologarn pathing over unwalkable space, Razorscale grounding phase timers, Mimiron Laser Barrage hitbox, Thorim, and Yogg-Saron brain pet targeting.
-- 🪄 **[Class & Spells Fixes](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh+Spells):** Mage T8 4P bonus, Rogue Remorseless Attacks / Mutilate, Hunter Lock and Load, Paladin Divine Shield friendly auras, DK Threat of Thassarian scaling.
-- 🔍 **Reverse Engineering & Sniffs:** Analyzing 3.3.5a retail packet traces, IDA Pro disassemblies, and DBC tables to ensure exact Blizzlike fidelity.
+- 🛠️ **[AzerothCore Contributions & PRs](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh):** Core systems, spell/aura engine, leash timers, and movement splines.
+- ⚔️ **[Ulduar & Raid Fixes](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh+is%3Aclosed):** Kologarn charge pathing, Razorscale grounding phase, Mimiron hitboxes, and trash cleanup.
+- 🪄 **[Spells & Talents Fixes](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh+Spells):** Mage T8 4P bonus, Rogue Remorseless Attacks / Mutilate, Lock and Load, and Divine Shield auras.
+- 🔍 **Reverse Engineering:** Analyzing retail 3.3.5a sniffs, IDA Pro disassembly, and DBC data to keep mechanics 100% Blizzlike.
 
-### 🏆 Featured AzerothCore Pull Requests
-
-| Category | Contribution / Pull Request | Status | Link |
-| :--- | :--- | :---: | :---: |
-| **Ulduar** | Fix Charge pathing against oversized targets standing over unwalkable space (e.g. Kologarn) | `Approved / Closed` | [#27412](https://github.com/azerothcore/azerothcore-wotlk/pull/27412) |
-| **Ulduar** | Fix Razorscale add spawn composition, grounding phase transitions and queueing | `Approved / Closed` | [#27411](https://github.com/azerothcore/azerothcore-wotlk/pull/27411) |
-| **Ulduar** | Remove excess 4th trash pack before Mimiron tram in Ulduar | `Approved / Closed` | [#27440](https://github.com/azerothcore/azerothcore-wotlk/pull/27440) |
-| **Spells** | Correct Lock and Load proc behavior & charge consumption | `Approved / Closed` | [#26145](https://github.com/azerothcore/azerothcore-wotlk/pull/26145) |
-| **Spells** | Allow friendly auras during Divine Shield | `Approved / Closed` | [#26052](https://github.com/azerothcore/azerothcore-wotlk/pull/26052) |
-| **Spells** | Fix Improved Barkskin armor scaling | `Approved / Closed` | [#26150](https://github.com/azerothcore/azerothcore-wotlk/pull/26150) |
-| **Instances** | Engage Murmur on spell damage in Shadow Labyrinth | `Approved / Closed` | [#26056](https://github.com/azerothcore/azerothcore-wotlk/pull/26056) |
-| **GameObjects** | Allow ritual helpers on cooldown | `Approved / Closed` | [#26144](https://github.com/azerothcore/azerothcore-wotlk/pull/26144) |
-| **AI / Core** | Resolve caster creeping and handle interrupts Blizzlike | `Open / Ready` | [#27391](https://github.com/azerothcore/azerothcore-wotlk/pull/27391) |
-| **Core** | Fix creature leash distance timer and home reset | `Open / Ready` | [#27390](https://github.com/azerothcore/azerothcore-wotlk/pull/27390) |
-| **Spells** | Fix Mage Tier 8 4-piece set bonus proc consumption | `Open / Ready` | [#27464](https://github.com/azerothcore/azerothcore-wotlk/pull/27464) |
-| **Ulduar / DB** | Remove custom cone line attribute for Mimiron Phase 4 Laser Barrage | `Open / Ready` | [#27462](https://github.com/azerothcore/azerothcore-wotlk/pull/27462) |
-
-👉 **[Click here to view all my AzerothCore Pull Requests](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)**
+👉 **[Click here to see all my Pull Requests and Contributions on AzerothCore](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)**
 
 ### 📦 AzerothCore Modules & Systems
 
@@ -85,9 +68,7 @@ Analysis:    [ IDA Pro, Ghidra, Wireshark, Visual Studio ]
 
 ### 🚀 Direct Links & Contact
 
-[![All PRs](https://img.shields.io/badge/AzerothCore-All_Pull_Requests-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)
-[![Merged PRs](https://img.shields.io/badge/AzerothCore-Approved_&_Merged-8957e5?style=for-the-badge&logo=git&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh+is%3Aclosed)
-[![Open PRs](https://img.shields.io/badge/AzerothCore-Active_Open_PRs-0078D7?style=for-the-badge&logo=pullrequest&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh+is%3Aopen)
+[![AzerothCore PRs](https://img.shields.io/badge/AzerothCore-View_All_My_Pull_Requests-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh)
 [![Discord](https://img.shields.io/badge/Discord-Direct_Message-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1063304041419001966)
 
 <br/><br/>
