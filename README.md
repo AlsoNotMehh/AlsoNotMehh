@@ -31,8 +31,6 @@
 | :--- | :--- | :---: |
 | **mod-cfbg-enhanced** | Cross-Faction Battlegrounds with **party team locking** (friends stay together) and **iLvl gear balance**. | [View Repo](https://github.com/AlsoNotMehh/mod-cfbg-enhanced) |
 | **mod-fast-day-night** | Accelerated **visual day/night cycle** (4h day / 4h night) & live GM weather/lighting controls. | [View Repo](https://github.com/AlsoNotMehh/mod-fast-day-night) |
-| **mod-streamer-protection** | Automated **anti-stream sniping & anti-griefing protection** with smart mutual-PvP detection. | [View Repo](https://github.com/AlsoNotMehh/mod-streamer-protection) |
-| **mod-high-stakes-duels** | High-stakes **Gold Wagers & Mak'gora (Death Duels)** with permanent character loss. | [View Repo](https://github.com/AlsoNotMehh/mod-high-stakes-duels) |
 | **mod-arac-enhanced** | Enhanced **All Races All Classes** with granular combination toggles and complete starter seeding. | [View Repo](https://github.com/AlsoNotMehh/mod-arac-enhanced) |
 | **mod-hardcore-scaling** | Tuned **NPC health & damage scaling** (+25% HP / +30% DMG) for challenging Hardcore PvE without overwhelming. | [View Repo](https://github.com/AlsoNotMehh/mod-hardcore-scaling) |
 | **mod-account-bound** | Account-wide **achievements, mounts, companion pets, titles, and reputations** without login spam. | [View Repo](https://github.com/AlsoNotMehh/mod-account-bound) |
