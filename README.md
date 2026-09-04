@@ -37,6 +37,7 @@
 | **mod-hardcore-scaling** | Tuned **NPC health & damage scaling** (+25% HP / +30% DMG) for challenging Hardcore PvE without overwhelming. | [View Repo](https://github.com/AlsoNotMehh/mod-hardcore-scaling) |
 | **mod-account-bound** | Account-wide **achievements, mounts, companion pets, titles, and reputations** without login spam. | [View Repo](https://github.com/AlsoNotMehh/mod-account-bound) |
 | **mod-no-profession-limit** | Learn up to all **11 WotLK primary professions** with optional account-bound sync. | [View Repo](https://github.com/AlsoNotMehh/mod-no-profession-limit) |
+| **mod-profession-experience** | Balanced **Level 1 to 80 experience rewards** for gathering, crafting, and fishing with exploit protection. | [View Repo](https://github.com/AlsoNotMehh/mod-profession-experience) |
 | **mod-eluna-racial-swap** | Custom **racial trait selector interface** via AIO without requiring client MPQ patches. | [View Repo](https://github.com/AlsoNotMehh/mod-eluna-racial-swap) |
 | **mod-eluna-teleport-selector** | Visual **starting zone teleporter card UI** with real-time NPC portrait capture via AIO. | [View Repo](https://github.com/AlsoNotMehh/mod-eluna-teleport-selector) |
 
