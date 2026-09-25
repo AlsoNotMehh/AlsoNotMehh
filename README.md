@@ -30,6 +30,7 @@
 | Module | Description | Repository |
 | :--- | :--- | :---: |
 | **mod-two-names** | First & Last name character creation system (`John Doe`) with smart auto-casing, profanity checks, and 1-click patcher. | [View Repo](https://github.com/AlsoNotMehh/mod-two-names) |
+| **mod-dangerous-nights** | High-stakes **"Noches Peligrosas"** nighttime frenzy (+30% DMG, +20% HP) with high rewards (+50% XP, +50% Gold, extra drops). | [View Repo](https://github.com/AlsoNotMehh/mod-dangerous-nights) |
 | **mod-streamer-protection** | Full streamer anonymity mode spoofing player names, guilds, inspecting, and chat to defeat stream snipers. | [View Repo](https://github.com/AlsoNotMehh/mod-streamer-protection) |
 | **mod-cfbg-enhanced** | Cross-Faction Battlegrounds with **party team locking** (friends stay together) and **iLvl gear balance**. | [View Repo](https://github.com/AlsoNotMehh/mod-cfbg-enhanced) |
 | **mod-fast-day-night** | Accelerated **visual day/night cycle** (4h day / 4h night) & live GM weather/lighting controls. | [View Repo](https://github.com/AlsoNotMehh/mod-fast-day-night) |
