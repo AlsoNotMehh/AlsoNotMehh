@@ -48,12 +48,18 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats-fast.vercel.app/api?username=AlsoNotMehh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=238636&text_color=C9D1D9" height="165" alt="GitHub Stats" />
-<img src="https://streak-stats.demolab.com/?user=AlsoNotMehh&theme=tokyonight&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353" height="165" alt="GitHub Streak" />
+<a href="https://github.com/AlsoNotMehh">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=AlsoNotMehh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=238636&text_color=C9D1D9" height="165" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/AlsoNotMehh">
+  <img src="https://streak-stats.demolab.com/?user=AlsoNotMehh&theme=tokyonight&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353&timezone=America%2FNew_York&date_format=M%20j%5B%2C%20Y%5D" height="165" alt="GitHub Streak" />
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=AlsoNotMehh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9" height="165" alt="Top Languages" />
+<a href="https://github.com/AlsoNotMehh">
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=AlsoNotMehh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9" height="165" alt="Top Languages" />
+</a>
 
 </div>
 
