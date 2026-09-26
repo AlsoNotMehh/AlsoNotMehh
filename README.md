@@ -29,6 +29,7 @@
 
 | Module | Description | Repository |
 | :--- | :--- | :---: |
+| **mod-realm-first-titles** | Automatic **Level 80 Realm First title & achievement system** (Classes, Races, 450 Professions, Raids) with offline repair & GM audit. | [View Repo](https://github.com/AlsoNotMehh/mod-realm-first-titles) |
 | **mod-two-names** | First & Last name character creation system (`John Doe`) with smart auto-casing, profanity checks, and 1-click patcher. | [View Repo](https://github.com/AlsoNotMehh/mod-two-names) |
 | **mod-camping** | Open-world **Camping & Campsite system** with 3D profession fixtures, wilderness Rested XP, and 1-hour buffs. | [View Repo](https://github.com/AlsoNotMehh/mod-camping) |
 | **mod-dangerous-nights** | Dynamic nighttime loot & reward multipliers (+50% XP, +50% Gold, extra drops) paired with hardcore scaling. | [View Repo](https://github.com/AlsoNotMehh/mod-dangerous-nights) |
