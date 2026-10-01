@@ -57,6 +57,23 @@ const contributions = {
 
 const moduleGrid = document.querySelector("#module-grid");
 const contributionList = document.querySelector("#contribution-list");
+const themeButton = document.querySelector(".theme-toggle");
+
+function setTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  themeButton.textContent = theme === "dark" ? "Light" : "Dark";
+  themeButton.setAttribute("aria-label", `Switch to ${theme === "dark" ? "light" : "dark"} theme`);
+  document.querySelector('meta[name="theme-color"]').setAttribute("content", theme === "dark" ? "#0a0a0a" : "#f7f7f5");
+}
+
+const savedTheme = localStorage.getItem("theme");
+const preferredTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+setTheme(savedTheme || preferredTheme);
+themeButton.addEventListener("click", () => {
+  const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+  localStorage.setItem("theme", nextTheme);
+  setTheme(nextTheme);
+});
 
 function renderModules(filter = "all") {
   const selected = modules.filter(item => filter === "all" || item.category === filter);

@@ -3,21 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AzerothCore contributions, C++ engineering, and WotLK modules by AlsoNotMehh.">
-  <meta name="theme-color" content="#090b11">
-  <meta property="og:title" content="AlsoNotMehh — AzerothCore Developer">
-  <meta property="og:description" content="Upstream fixes, WotLK systems engineering, and a growing catalogue of AzerothCore modules.">
+  <meta name="description" content="AzerothCore modules, fixes, and open-source work by AlsoNotMehh.">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta property="og:title" content="AlsoNotMehh — AzerothCore Projects">
+  <meta property="og:description" content="AzerothCore modules, fixes, and open-source work.">
   <meta property="og:type" content="website">
-  <title>AlsoNotMehh — AzerothCore Developer</title>
+  <title>AlsoNotMehh — AzerothCore Projects</title>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="assets/app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="ambient ambient-one" aria-hidden="true"></div>
-  <div class="ambient ambient-two" aria-hidden="true"></div>
-
   <header class="site-header">
     <a class="brand" href="#top" aria-label="AlsoNotMehh home">
       <span class="brand-mark">AN</span>
@@ -25,72 +22,41 @@
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-      <a href="#work">Work</a>
       <a href="#modules">Modules</a>
       <a href="#contributions">Contributions</a>
-      <a class="nav-cta" href="https://github.com/AlsoNotMehh" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <button class="theme-toggle" type="button" aria-label="Switch color theme">Theme</button>
+      <a href="https://github.com/AlsoNotMehh" target="_blank" rel="noreferrer">GitHub ↗</a>
     </nav>
   </header>
 
   <main id="main">
     <section class="hero section" id="top">
       <div class="hero-copy reveal">
-        <p class="eyebrow"><span class="status-dot"></span> Building for AzerothCore</p>
-        <h1>Engineering systems that make <span>WotLK servers</span> better.</h1>
-        <p class="hero-lede">I work across AzerothCore's C++ core, encounter scripts, movement, spells, database behavior, and standalone modules—turning difficult bug reports into tested, reviewable fixes.</p>
+        <p class="eyebrow">AzerothCore · WotLK 3.3.5a</p>
+        <h1>Modules.<br>Fixes.<br><span>Open source.</span></h1>
+        <p class="hero-lede">A focused collection of AzerothCore projects and upstream contributions.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#modules">Explore modules</a>
-          <a class="button button-secondary" href="https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh" target="_blank" rel="noreferrer">View upstream work ↗</a>
+          <a class="button button-secondary" href="#contributions">View contributions</a>
         </div>
       </div>
       <aside class="hero-panel reveal" aria-label="Contribution overview">
-        <p class="panel-kicker">Contribution ledger</p>
-        <div class="hero-metric"><strong>31</strong><span>upstream pull requests tracked</span></div>
+        <p class="panel-kicker">At a glance</p>
+        <div class="hero-metric"><strong>31</strong><span>pull requests</span></div>
         <div class="metric-grid">
           <div><strong>18</strong><span>Merged</span></div>
           <div><strong>13</strong><span>Open</span></div>
           <div><strong>16</strong><span>Modules</span></div>
           <div><strong>3.3.5a</strong><span>Target</span></div>
         </div>
-        <div class="code-line"><span>focus</span> = { spells, AI, pathing, modules };</div>
+        <a class="panel-link" href="https://github.com/AlsoNotMehh" target="_blank" rel="noreferrer">github.com/AlsoNotMehh ↗</a>
       </aside>
-    </section>
-
-    <section class="trust-strip" aria-label="Core technologies">
-      <span>C++20</span><span>AzerothCore</span><span>MySQL</span><span>CMake</span><span>Eluna</span><span>WotLK 3.3.5a</span>
-    </section>
-
-    <section class="section" id="work">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow">Selected engineering</p><h2>Work across the whole server stack.</h2></div>
-        <p>Core mechanics, raid encounters, movement systems, and server tooling—each change is scoped around a concrete player-facing problem.</p>
-      </div>
-      <div class="featured-grid">
-        <a class="featured-card featured-large reveal" href="https://github.com/azerothcore/azerothcore-wotlk/pull/27555" target="_blank" rel="noreferrer">
-          <span class="card-index">01 · Encounter systems</span>
-          <h3>Mimiron's Laser Barrage</h3>
-          <p>Corrected visual rotation and wipe-state synchronization for one of Ulduar's most timing-sensitive encounters.</p>
-          <span class="card-link">Read pull request ↗</span>
-        </a>
-        <a class="featured-card reveal" href="https://github.com/azerothcore/azerothcore-wotlk/pull/27426" target="_blank" rel="noreferrer">
-          <span class="card-index">02 · Movement</span>
-          <h3>Oversized-target pathing</h3>
-          <p>Improved pet chase geometry against targets such as the Brain of Yogg-Saron.</p>
-          <span class="card-link">Read pull request ↗</span>
-        </a>
-        <a class="featured-card reveal" href="https://github.com/azerothcore/azerothcore-wotlk/pull/26060" target="_blank" rel="noreferrer">
-          <span class="card-index">03 · Spell engine</span>
-          <h3>Aura instance dispels</h3>
-          <p>Preserved distinct aura instances so dispels handle identical spell IDs correctly.</p>
-          <span class="card-link">Read pull request ↗</span>
-        </a>
-      </div>
     </section>
 
     <section class="section" id="modules">
       <div class="section-heading reveal">
-        <div><p class="eyebrow">Module catalogue</p><h2>Independent systems, ready to explore.</h2></div>
-        <p>Sixteen public projects spanning progression, world systems, PvP, interface work, and server safety.</p>
+        <div><p class="eyebrow">Modules</p><h2>Sixteen projects.</h2></div>
+        <p>Browse by category. Each project links directly to its repository.</p>
       </div>
       <div class="toolbar reveal" role="group" aria-label="Filter modules">
         <button class="filter is-active" type="button" data-filter="all">All <span>16</span></button>
@@ -105,8 +71,8 @@
 
     <section class="section contributions" id="contributions">
       <div class="section-heading reveal">
-        <div><p class="eyebrow">Upstream ledger</p><h2>From issue report to merged fix.</h2></div>
-        <p>Browse the supplied contribution record by status. Every item links to its pull request and source issue.</p>
+        <div><p class="eyebrow">Contributions</p><h2>Upstream work.</h2></div>
+        <p>Pull requests and their source issues, separated by status.</p>
       </div>
       <div class="contribution-summary reveal">
         <button class="status-card is-active" type="button" data-status="merged"><strong>18</strong><span>Merged</span></button>
@@ -118,9 +84,9 @@
     </section>
 
     <section class="section contact reveal">
-      <p class="eyebrow">Build with me</p>
-      <h2>Working on AzerothCore?</h2>
-      <p>Explore the source, test a module, or follow the next upstream fix.</p>
+      <p class="eyebrow">Elsewhere</p>
+      <h2>More on GitHub.</h2>
+      <p>Source code, updates, and current work.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="https://github.com/AlsoNotMehh" target="_blank" rel="noreferrer">Open GitHub profile ↗</a>
         <a class="button button-secondary" href="mailto:itsbrayanrodriguez@gmail.com">Send an email</a>
@@ -130,7 +96,7 @@
 
   <footer class="site-footer">
     <span>© <span id="year"></span> AlsoNotMehh</span>
-    <span>Built for GitHub Pages · C++ by trade, HTML by necessity.</span>
+    <span>AzerothCore · WotLK 3.3.5a</span>
   </footer>
 </body>
 </html>
