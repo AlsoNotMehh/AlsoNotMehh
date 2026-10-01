@@ -5,19 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="AzerothCore modules, fixes, and open-source work by AlsoNotMehh.">
   <meta name="theme-color" content="#0a0a0a">
-  <meta property="og:title" content="AlsoNotMehh — AzerothCore Projects">
+  <meta property="og:title" content="Mehhstuff — AzerothCore Projects">
   <meta property="og:description" content="AzerothCore modules, fixes, and open-source work.">
   <meta property="og:type" content="website">
-  <title>AlsoNotMehh — AzerothCore Projects</title>
+  <title>Mehhstuff — AzerothCore Projects</title>
+  <script>
+    (() => {
+      document.documentElement.classList.add("is-loading");
+      try {
+        const saved = localStorage.getItem("theme");
+        const theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.dataset.theme = theme;
+      } catch {
+        // The default theme remains available when browser storage is restricted.
+      }
+    })();
+  </script>
   <link rel="icon" href="assets/mark.svg?v=09937ec" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=6ccda9b">
-  <script src="assets/app.js?v=76a2cd9" defer></script>
+  <link rel="stylesheet" href="assets/styles.css?v=55a6c7e">
+  <script src="assets/app.js?v=00474d2" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-loader" aria-hidden="true">
+    <div class="loader-shell">
+      <div class="loader-top">
+        <strong>Mehhstuff</strong>
+        <span class="skeleton-pill"></span>
+      </div>
+      <div class="loader-grid">
+        <div>
+          <span class="skeleton-line short"></span>
+          <span class="skeleton-title"></span>
+          <span class="skeleton-title medium"></span>
+          <span class="skeleton-line wide"></span>
+          <span class="skeleton-line"></span>
+        </div>
+        <span class="skeleton-card"></span>
+      </div>
+    </div>
+  </div>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="AlsoNotMehh home">
-      <span>AlsoNotMehh</span>
+    <a class="brand" href="#top" aria-label="Mehhstuff home">
+      <span>Mehhstuff</span>
     </a>
     <a class="github-link" href="https://github.com/AlsoNotMehh" target="_blank" rel="noreferrer">GitHub profile ↗</a>
   </header>
@@ -92,7 +122,7 @@
   </main>
 
   <footer class="site-footer">
-    <span>© <span id="year"></span> AlsoNotMehh</span>
+    <span>© <span id="year"></span> Mehhstuff</span>
     <span>AzerothCore · WotLK 3.3.5a</span>
   </footer>
 </body>
