@@ -134,8 +134,7 @@ h3 { font-size: 1.15rem; }
 .contact .button-secondary { color: var(--inverse); border-color: color-mix(in srgb, var(--inverse) 35%, transparent); }
 .site-footer { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; padding: 27px 0 42px; display: flex; justify-content: space-between; gap: 20px; color: var(--muted); border-top: 1px solid var(--line); font-size: 11px; }
 
-.reveal { opacity: 0; transform: translateY(10px); transition: opacity .4s ease, transform .4s ease; }
-.reveal.is-visible { opacity: 1; transform: none; }
+.reveal { opacity: 1; transform: none; }
 
 @media (max-width: 1180px) { .site-header { width: calc(100% - 40px); } }
 @media (max-width: 920px) {
@@ -161,5 +160,4 @@ h3 { font-size: 1.15rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
-  .reveal { opacity: 1; transform: none; }
 }
