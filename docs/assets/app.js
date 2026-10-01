@@ -66,12 +66,21 @@ function setTheme(theme) {
   document.querySelector('meta[name="theme-color"]').setAttribute("content", theme === "dark" ? "#0a0a0a" : "#f7f7f5");
 }
 
-const savedTheme = localStorage.getItem("theme");
+let savedTheme = null;
+try {
+  savedTheme = localStorage.getItem("theme");
+} catch {
+  // Storage can be unavailable in strict privacy modes; the site still works.
+}
 const preferredTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 setTheme(savedTheme || preferredTheme);
 themeButton.addEventListener("click", () => {
   const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
-  localStorage.setItem("theme", nextTheme);
+  try {
+    localStorage.setItem("theme", nextTheme);
+  } catch {
+    // Keep the selected theme for this page even when it cannot be persisted.
+  }
   setTheme(nextTheme);
 });
 
@@ -112,14 +121,6 @@ document.querySelectorAll("[data-status]").forEach(button => button.addEventList
   button.classList.add("is-active");
   renderContributions(button.dataset.status);
 }));
-
-const observer = new IntersectionObserver(entries => entries.forEach(entry => {
-  if (entry.isIntersecting) {
-    entry.target.classList.add("is-visible");
-    observer.unobserve(entry.target);
-  }
-}), { threshold: .12 });
-document.querySelectorAll(".reveal").forEach(item => observer.observe(item));
 
 document.querySelector("#year").textContent = new Date().getFullYear();
 renderModules();
