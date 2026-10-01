@@ -38,6 +38,24 @@ button { color: inherit; font: inherit; }
 .skip-link { position: fixed; top: -60px; left: 20px; z-index: 100; padding: 10px 16px; color: var(--inverse); background: var(--inverse-bg); border-radius: 7px; }
 .skip-link:focus { top: 20px; }
 
+.page-loader { display: none; position: fixed; inset: 0; z-index: 1000; place-items: center; padding: 20px; color: var(--ink); background: var(--bg); }
+.is-loading .page-loader { display: grid; animation: loader-exit .25s ease .85s forwards; }
+.loader-shell { width: min(100%, var(--max)); }
+.loader-top { padding: 18px 0; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
+.loader-top strong { font-size: 18px; letter-spacing: -.045em; }
+.loader-grid { min-height: 600px; display: grid; grid-template-columns: 1.2fr .72fr; align-items: center; gap: 90px; }
+.loader-grid > div { display: flex; flex-direction: column; gap: 14px; }
+.skeleton-line, .skeleton-title, .skeleton-card, .skeleton-pill { display: block; background: var(--line); animation: skeleton-pulse .9s ease-in-out infinite alternate; }
+.skeleton-line { width: 58%; height: 13px; border-radius: 4px; }
+.skeleton-line.short { width: 29%; height: 10px; margin-bottom: 12px; }
+.skeleton-line.wide { width: 77%; margin-top: 14px; }
+.skeleton-title { width: 86%; height: clamp(66px, 8vw, 104px); border-radius: 8px; }
+.skeleton-title.medium { width: 68%; }
+.skeleton-card { width: 100%; min-height: 405px; border-radius: 14px; }
+.skeleton-pill { width: 112px; height: 34px; border-radius: 8px; }
+@keyframes skeleton-pulse { from { opacity: .42; } to { opacity: .82; } }
+@keyframes loader-exit { to { opacity: 0; visibility: hidden; } }
+
 .site-header {
   position: sticky;
   top: 0;
@@ -138,6 +156,8 @@ h3 { font-size: 1.15rem; }
 
 @media (max-width: 1180px) { .site-header { width: calc(100% - 40px); } }
 @media (max-width: 920px) {
+  .loader-grid { min-height: 560px; grid-template-columns: 1fr; gap: 28px; padding: 70px 0; }
+  .skeleton-card { min-height: 230px; }
   .hero { min-height: auto; grid-template-columns: 1fr; gap: 48px; padding-top: 105px; }
   .section-heading { grid-template-columns: 1fr; gap: 16px; }
   .module-grid { grid-template-columns: repeat(2, 1fr); }
@@ -145,6 +165,12 @@ h3 { font-size: 1.15rem; }
   .progress { grid-column: 1 / -1; }
 }
 @media (max-width: 640px) {
+  .page-loader { padding: 14px; }
+  .loader-top { padding: 14px 0; }
+  .loader-top strong { font-size: 17px; }
+  .loader-grid { min-height: 600px; padding: 54px 0; }
+  .skeleton-title { height: 56px; }
+  .skeleton-card { min-height: 190px; }
   .site-header { width: calc(100% - 28px); }
   .brand { font-size: 17px; }
   .github-link { padding: 7px 10px; }
@@ -155,6 +181,8 @@ h3 { font-size: 1.15rem; }
   .contribution-item { grid-template-columns: 1fr auto; gap: 6px 12px; }
   .contribution-date { grid-column: 1 / -1; }
   .contribution-title { font-size: 12.5px; }
+  .contribution-meta { max-width: 112px; white-space: normal; text-align: right; }
+  .theme-toggle { right: 12px; bottom: 12px; }
   .contact { padding: 52px 22px; margin-bottom: 60px; }
   .site-footer { flex-direction: column; }
 }

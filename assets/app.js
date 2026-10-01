@@ -58,6 +58,13 @@ const contributions = {
 const moduleGrid = document.querySelector("#module-grid");
 const contributionList = document.querySelector("#contribution-list");
 const themeButton = document.querySelector(".theme-toggle");
+const loadStartedAt = performance.now();
+
+window.addEventListener("load", () => {
+  const minimumDisplay = 420;
+  const remaining = Math.max(0, minimumDisplay - (performance.now() - loadStartedAt));
+  window.setTimeout(() => document.documentElement.classList.remove("is-loading"), remaining);
+}, { once: true });
 
 function setTheme(theme) {
   document.documentElement.dataset.theme = theme;
