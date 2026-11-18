@@ -10,7 +10,7 @@
 I work on AzerothCore spells, encounters, movement and gameplay modules.
 Mostly C++20, Lua and SQL.
 
-<img src="docs/assets/intro.gif" width="800" alt="A short animated code introduction: AlsoNotMehh, AzerothCore, C++20, Lua and SQL.">
+<img src="docs/assets/about.gif" width="800" alt="A short animated code introduction: AlsoNotMehh, AzerothCore, C++20, Lua and SQL.">
 
 [GitHub](https://github.com/AlsoNotMehh) · [Email](mailto:itsbrayanrodriguez@gmail.com)
 
