@@ -3,127 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AzerothCore modules, fixes, and open-source work by AlsoNotMehh.">
-  <meta name="theme-color" content="#0a0a0a">
-  <meta property="og:title" content="Mehhstuff — AzerothCore Projects">
-  <meta property="og:description" content="AzerothCore modules, fixes, and open-source work.">
+  <meta name="description" content="AlsoNotMehh — AzerothCore contributor, C++ developer and WotLK systems engineer.">
+  <meta name="theme-color" content="#0d1117">
+  <meta property="og:title" content="AlsoNotMehh">
+  <meta property="og:description" content="AzerothCore. C++20. Spells, encounters and gameplay modules.">
   <meta property="og:type" content="website">
-  <title>Mehhstuff — AzerothCore Projects</title>
-  <script>
-    (() => {
-      document.documentElement.classList.add("is-loading");
-      try {
-        const saved = localStorage.getItem("theme");
-        const theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-        document.documentElement.dataset.theme = theme;
-      } catch {
-        // The default theme remains available when browser storage is restricted.
-      }
-    })();
-  </script>
-  <link rel="icon" href="assets/mark.svg?v=09937ec" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=55a6c7e">
-  <script src="assets/app.js?v=00474d2" defer></script>
+  <title>AlsoNotMehh — AzerothCore developer</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css?v=simple-1">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="page-loader" aria-hidden="true">
-    <div class="loader-shell">
-      <div class="loader-top">
-        <strong>Mehhstuff</strong>
-        <span class="skeleton-pill"></span>
-      </div>
-      <div class="loader-grid">
-        <div>
-          <span class="skeleton-line short"></span>
-          <span class="skeleton-title"></span>
-          <span class="skeleton-title medium"></span>
-          <span class="skeleton-line wide"></span>
-          <span class="skeleton-line"></span>
-        </div>
-        <span class="skeleton-card"></span>
-      </div>
-    </div>
-  </div>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Mehhstuff home">
-      <span>Mehhstuff</span>
-    </a>
-    <a class="github-link" href="https://github.com/AlsoNotMehh" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+  <a class="skip" href="#about">Skip to content</a>
+  <header>
+    <a class="wordmark" href="./" aria-label="Home">mehh<span>_</span></a>
+    <a class="quiet-link" href="https://github.com/AlsoNotMehh">GitHub <span aria-hidden="true">↗</span></a>
   </header>
-  <button class="theme-toggle" type="button" aria-label="Switch color theme">Theme</button>
-
-  <main id="main">
-    <section class="hero section" id="top">
-      <div class="hero-copy reveal">
-        <a class="eyebrow eyebrow-link" href="https://github.com/azerothcore/azerothcore-wotlk" target="_blank" rel="noreferrer">
-          <img src="assets/azerothcore-logo.png?v=bdf9a8c" alt="">
-          <span>AzerothCore · WotLK 3.3.5a ↗</span>
-        </a>
-        <h1>Modules.<br>Fixes.<br><span>Open source.</span></h1>
-        <p class="hero-lede">A focused collection of AzerothCore projects and upstream contributions.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#modules">Explore modules</a>
-          <a class="button button-secondary" href="#contributions">View contributions</a>
-        </div>
-      </div>
-      <aside class="hero-panel reveal" aria-label="Contribution overview">
-        <p class="panel-kicker">At a glance</p>
-        <div class="hero-metric"><strong>31</strong><span>pull requests</span></div>
-        <div class="metric-grid">
-          <div><strong>18</strong><span>Merged</span></div>
-          <div><strong>13</strong><span>Open</span></div>
-          <div><strong>16</strong><span>Modules</span></div>
-          <div><strong>3.3.5a</strong><span>Target</span></div>
-        </div>
-        <a class="panel-link" href="https://github.com/AlsoNotMehh" target="_blank" rel="noreferrer">github.com/AlsoNotMehh ↗</a>
-      </aside>
+  <main id="about">
+    <section class="intro" aria-labelledby="name">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> AzerothCore · WotLK 3.3.5a</p>
+      <h1 id="name">AlsoNotMehh<span class="period">.</span></h1>
+      <p class="role">C++ developer <span> / </span> WotLK systems engineer</p>
+      <p class="bio">I work on AzerothCore spells, encounters, movement<br class="desktop-break"> and gameplay modules. Mostly C++20, Lua and SQL.</p>
+      <nav class="links" aria-label="Find my work">
+        <a class="primary" href="https://github.com/azerothcore/azerothcore-wotlk/pulls?q=is%3Apr+author%3AAlsoNotMehh">Contributions <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/AlsoNotMehh?tab=repositories">Repositories <span aria-hidden="true">↗</span></a>
+        <a href="mailto:itsbrayanrodriguez@gmail.com">Email <span aria-hidden="true">↗</span></a>
+      </nav>
     </section>
-
-    <section class="section" id="modules">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow">Modules</p><h2>Sixteen projects.</h2></div>
-        <p>Browse by category. Each project links directly to its repository.</p>
-      </div>
-      <div class="toolbar reveal" role="group" aria-label="Filter modules">
-        <button class="filter is-active" type="button" data-filter="all">All <span>16</span></button>
-        <button class="filter" type="button" data-filter="progression">Progression</button>
-        <button class="filter" type="button" data-filter="world">World</button>
-        <button class="filter" type="button" data-filter="pvp">PvP</button>
-        <button class="filter" type="button" data-filter="interface">Interface</button>
-        <button class="filter" type="button" data-filter="safety">Safety</button>
-      </div>
-      <div id="module-grid" class="module-grid" aria-live="polite"></div>
-    </section>
-
-    <section class="section contributions" id="contributions">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow">Contributions</p><h2>Upstream work.</h2></div>
-        <p>Pull requests and their source issues, separated by status.</p>
-      </div>
-      <div class="contribution-summary reveal">
-        <button class="status-card is-active" type="button" data-status="merged"><strong>18</strong><span>Merged</span></button>
-        <button class="status-card" type="button" data-status="open"><strong>13</strong><span>Open</span></button>
-        <div class="progress" aria-label="18 of 31 tracked pull requests merged"><span style="width:58.06%"></span></div>
-        <span class="merge-rate">58% merged</span>
-      </div>
-      <div id="contribution-list" class="contribution-list" aria-live="polite"></div>
-    </section>
-
-    <section class="section contact reveal">
-      <p class="eyebrow">Elsewhere</p>
-      <h2>More on GitHub.</h2>
-      <p>Source code, updates, and current work.</p>
-      <div class="hero-actions">
-        <a class="button button-primary" href="https://github.com/AlsoNotMehh" target="_blank" rel="noreferrer">Open GitHub profile ↗</a>
-        <a class="button button-secondary" href="mailto:itsbrayanrodriguez@gmail.com">Send an email</a>
-      </div>
+    <section class="signal" aria-label="Spells, encounters and modules connected by C++">
+      <div class="signal-caption"><span>A FEW THINGS I WORK ON</span><span aria-hidden="true">C++</span></div>
+      <svg class="circuit" viewBox="0 0 800 240" fill="none" aria-hidden="true">
+        <defs>
+          <radialGradient id="halo"><stop stop-color="#bda4ff" stop-opacity=".1"/><stop offset="1" stop-color="#bda4ff" stop-opacity="0"/></radialGradient>
+          <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+        </defs>
+        <ellipse cx="400" cy="120" rx="180" ry="120" fill="url(#halo)"/>
+        <g class="grid-lines"><path d="M0 120H800M400 0V240M200 0V240M600 0V240" stroke="#1a202b" stroke-dasharray="2 8"/></g>
+        <g stroke="#303747" stroke-width="1.3">
+          <path d="M80 120H235L280 75H350"/><path d="M450 75H520L565 120H720"/>
+          <path d="M350 165H280L235 120"/><path d="M450 165H520L565 120"/>
+          <path d="M350 75L400 45L450 75V165L400 195L350 165Z"/>
+          <path d="M350 75L400 105L450 75M400 105V195" opacity=".45"/>
+        </g>
+        <path class="pulse pulse-a" d="M80 120H235L280 75H350" stroke="#bda4ff" stroke-width="2" stroke-dasharray="24 360"/>
+        <path class="pulse pulse-b" d="M450 165H520L565 120H720" stroke="#8bd5c3" stroke-width="2" stroke-dasharray="24 360"/>
+        <circle cx="80" cy="120" r="4" fill="#bda4ff"/>
+        <circle cx="720" cy="120" r="4" fill="#8bd5c3"/>
+        <circle class="core-glow" cx="400" cy="120" r="25" fill="#bda4ff" opacity=".1" filter="url(#glow)"/>
+        <text x="400" y="132" fill="#ede9f5" text-anchor="middle" font-family="monospace" font-size="30" letter-spacing="-2">{ }</text>
+        <g class="circuit-labels" fill="#707b8b" font-family="monospace" font-size="11" letter-spacing="2" text-anchor="middle">
+          <text x="148" y="157">SPELLS</text><text x="400" y="226">ENCOUNTERS</text><text x="652" y="157">MODULES</text>
+        </g>
+      </svg>
+      <button class="motion-toggle" type="button" aria-pressed="false" hidden>Pause animation</button>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <span>© <span id="year"></span> Mehhstuff</span>
-    <span>AzerothCore · WotLK 3.3.5a</span>
-  </footer>
+  <footer><span>AlsoNotMehh</span><span>C++20 <i>·</i> Lua <i>·</i> SQL</span><a href="https://github.com/AlsoNotMehh/AlsoNotMehh">View source <span aria-hidden="true">↗</span></a></footer>
+  <script src="assets/app.js?v=simple-1"></script>
 </body>
 </html>
